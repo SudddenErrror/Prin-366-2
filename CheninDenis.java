@@ -221,6 +221,8 @@ public class Cost {
         }
     }
 
+    // необходимо доработать алгоритм 
+
     // Получаем преобразованную мана-стоимость
     public int getConvertedManaCost() {
         return getGeneric() + getWhite() + getBlue() + getBlack() + getRed() + getGreen() + getColorless();
