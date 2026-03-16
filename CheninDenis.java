@@ -281,6 +281,8 @@ void main() {
     Cost cost;
     cost = new Cost("1"); // 1
     IO.println(String.format(cost.getFullManaCost()));
+    cost = new Cost("01"); // 1
+    IO.println(String.format(cost.getFullManaCost()));
     cost = new Cost("10"); // 10
     IO.println(String.format(cost.getFullManaCost()));
     cost = new Cost("1W"); // 1W
